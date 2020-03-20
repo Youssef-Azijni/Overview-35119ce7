@@ -1,3 +1,4 @@
+// @codingStandardsIgnoreStart
 <?php
 $host = 'localhost';
 $db   = 'netland';
@@ -59,3 +60,4 @@ foreach ($movies as $row) {
 }
 
 echo "</table>";
+// @codingStandardsIgnoreEnd
