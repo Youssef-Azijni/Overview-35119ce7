@@ -24,9 +24,9 @@ echo "<h1>Welcome, this is your $db control panel, change whatever you like. </h
 $seriesDATA = 'SELECT * FROM series';
 
 $seriesQuery = $pdo->query($seriesDATA);
-$series = seriesQuery->fetchALL(PDO::FETCH_ASSOC);
+$series = $seriesQuery->fetchALL(PDO::FETCH_ASSOC);
 
-echo "
+echo "    
 <h2>Series </h2>
 <table>
     <tr>
